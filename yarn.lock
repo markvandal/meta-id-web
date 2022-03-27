@@ -1622,10 +1622,10 @@
     mkdirp "^1.0.4"
     rimraf "^3.0.2"
 
-"@owlmeans/regov-ext-doc-signature@^0.1.1":
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/@owlmeans/regov-ext-doc-signature/-/regov-ext-doc-signature-0.1.1.tgz#402ee4a53e76247416860375e2c7fcd4bdece0df"
-  integrity sha512-QHu4c1KDB4a9KzqhpuyLxjWflB020B662KKNWaZikixyuvUxlRzjqBZApzqz4bGazX5JRYlp9AxGIDUrSbIgqw==
+"@owlmeans/regov-ext-doc-signature@^0.1.3":
+  version "0.1.3"
+  resolved "https://registry.yarnpkg.com/@owlmeans/regov-ext-doc-signature/-/regov-ext-doc-signature-0.1.3.tgz#ff8ce8ba3ce580b5a450908fbc4343b7030f3b5d"
+  integrity sha512-5iu+/rNBsZOID0hrG+fq7l3O7VyzOLkP4YDqx5yUt+n4E/q1W1FaLOP8oTLC1yUXAWIPZElb9nKOgYgwFW4AaA==
   dependencies:
     is-utf8 "^0.2.1"
   optionalDependencies:
@@ -1636,20 +1636,20 @@
     react-dom "^17.0.0"
     react-router-dom "^6.0.2"
 
-"@owlmeans/regov-ext-groups@^0.1.1":
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/@owlmeans/regov-ext-groups/-/regov-ext-groups-0.1.1.tgz#5f2c6efdf3411fa5266f7cf72be589dc370d67ef"
-  integrity sha512-eKoviH291gkRhEdWk+XTDBC33wjjxzTQHbxWaxy0n+VpH0UqgJe1Q0wwB0iHoo++7Ut7NaPKV3P3Vtxxg6BL+A==
+"@owlmeans/regov-ext-groups@^0.1.4":
+  version "0.1.4"
+  resolved "https://registry.yarnpkg.com/@owlmeans/regov-ext-groups/-/regov-ext-groups-0.1.4.tgz#cd1f0d1e88ace35c922a5f18d077574defba6880"
+  integrity sha512-ZpcoI1Q/SyieBmzKyKw9EYW8WVvi0uLTBHQ9RV0Tfdka9Gucn4HK4e/B/lizu6ZUda1YDM8R4LUjh9eC+JGZ/w==
 
-"@owlmeans/regov-ext-identity@^0.1.1":
-  version "0.1.1"
-  resolved "https://registry.yarnpkg.com/@owlmeans/regov-ext-identity/-/regov-ext-identity-0.1.1.tgz#8ed9b07cbb053d44c5f10451a2f0116c06dd3e32"
-  integrity sha512-A1unF+TklMt2kowHB2+g0h2t06JH04tOyA9/j0ZIr50aRNItRJ8/kJnA0QDSSthkv5XmJ18wqnb+Hg8GrHNuqg==
+"@owlmeans/regov-ext-identity@^0.1.5":
+  version "0.1.5"
+  resolved "https://registry.yarnpkg.com/@owlmeans/regov-ext-identity/-/regov-ext-identity-0.1.5.tgz#609d2970f6ce5cbc0f2c20688514869a482bebd6"
+  integrity sha512-dQlMasmCMHoGNE55U00KcW++lwByLU6HtQ28RlMA1CLyzbyN1YMNKBnx/gnRLw2UT8gMn6fqhvxEz/jlIU1gtA==
 
-"@owlmeans/regov-lib-react@^0.1.3":
-  version "0.1.3"
-  resolved "https://registry.yarnpkg.com/@owlmeans/regov-lib-react/-/regov-lib-react-0.1.3.tgz#754e797c52ec4446b768bb162043d4dc01980e8c"
-  integrity sha512-c+uzAfzqJioNNuBapFESXULStbydqbHhNUJQvR/Wfy3XSu1+oHjX/7S+OkH3z7LQ9BHN8lAyShS/PcaC1RfNpg==
+"@owlmeans/regov-lib-react@^0.1.6":
+  version "0.1.6"
+  resolved "https://registry.yarnpkg.com/@owlmeans/regov-lib-react/-/regov-lib-react-0.1.6.tgz#4d5f9285d4d79c7b832f836b984f6005ae633beb"
+  integrity sha512-pPMNraQZnrJxs2QTCS6ag3KmDo4IfBlSb0/rXLO6VKfSrPFLwEWSD8oLcAevprshmTitbR8imAPkewu3dQf/bg==
   dependencies:
     "@emotion/react" "^11.6.0"
     "@emotion/styled" "^11.6.0"
@@ -1661,6 +1661,7 @@
     moment "^2.29.1"
     react-dropzone "^11.4.2"
   optionalDependencies:
+    react-device-detect "^2.1.2"
     react-dom "^17.0.0"
     react-router-dom "^6.0.2"
 
@@ -9567,6 +9568,13 @@ react-dev-utils@^11.0.3:
     strip-ansi "6.0.0"
     text-table "0.2.0"
 
+react-device-detect@^2.1.2:
+  version "2.1.2"
+  resolved "https://registry.yarnpkg.com/react-device-detect/-/react-device-detect-2.1.2.tgz#60abb6fa361ec4cc839469a0c4c3e9b8ea17d6b5"
+  integrity sha512-N42xttwez3ECgu4KpOL2ICesdfoz8NCBfmc1rH9FRYSjH7NmMyANPSrQ3EvAtJyj/6TzJNhrANSO38iXjCB2Ug==
+  dependencies:
+    ua-parser-js "^0.7.30"
+
 react-dom@^17.0.0, react-dom@^17.0.2:
   version "17.0.2"
   resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-17.0.2.tgz#ecffb6845e3ad8dbfcdc498f0d0a939736502c23"
@@ -11381,6 +11389,11 @@ typescript@^4.5.2:
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-4.6.2.tgz#fe12d2727b708f4eef40f51598b3398baa9611d4"
   integrity sha512-HM/hFigTBHZhLXshn9sN37H085+hQGeJHJ/X7LpBWLID/fbc2acUMfU+lGD98X81sKP+pFa9f0DZmCwB9GnbAg==
 
+ua-parser-js@^0.7.30:
+  version "0.7.31"
+  resolved "https://registry.yarnpkg.com/ua-parser-js/-/ua-parser-js-0.7.31.tgz#649a656b191dffab4f21d5e053e27ca17cbff5c6"
+  integrity sha512-qLK/Xe9E2uzmYI3qLeOmI0tEOt+TBBQyUIAh4aAgU05FVYzeZrKUdkAZfBNVGRaHVgV0TDkdEngJSw/SyQchkQ==
+
 uint8array-tools@0.0.7:
   version "0.0.7"
   resolved "https://registry.yarnpkg.com/uint8array-tools/-/uint8array-tools-0.0.7.tgz#a7a2bb5d8836eae2fade68c771454e6a438b390d"
@@ -11676,8 +11689,10 @@ watchpack@^1.7.4:
   resolved "https://registry.yarnpkg.com/watchpack/-/watchpack-1.7.5.tgz#1267e6c55e0b9b5be44c2023aed5437a2c26c453"
   integrity sha512-9P3MWk6SrKjHsGkLT2KHXdQ/9SNkyoJbabxnKOoJepsvJjJG8uYTR3yTPxPQvNDI3w4Nz1xnE0TLHK4RIVe/MQ==
   dependencies:
+    chokidar "^3.4.1"
     graceful-fs "^4.1.2"
     neo-async "^2.5.0"
+    watchpack-chokidar2 "^2.0.1"
   optionalDependencies:
     chokidar "^3.4.1"
     watchpack-chokidar2 "^2.0.1"
