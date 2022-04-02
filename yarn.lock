@@ -1622,10 +1622,10 @@
     mkdirp "^1.0.4"
     rimraf "^3.0.2"
 
-"@owlmeans/regov-ext-doc-signature@^0.1.4":
-  version "0.1.4"
-  resolved "https://registry.yarnpkg.com/@owlmeans/regov-ext-doc-signature/-/regov-ext-doc-signature-0.1.4.tgz#e02c0efa03c0e0f18859c6f32ce7b97103d669b6"
-  integrity sha512-+i9+50TJSgYV5/TLEsD4r+LLwRLaJ/s7vzd6SW7+m/8ArxG7WgINroi+koPmqGVLZXE2ljgcc7EzDKp6ZxUQtA==
+"@owlmeans/regov-ext-doc-signature@^0.1.5":
+  version "0.1.5"
+  resolved "https://registry.yarnpkg.com/@owlmeans/regov-ext-doc-signature/-/regov-ext-doc-signature-0.1.5.tgz#8f2aa4be8d89ea12c4f4fdc0d47e47f51e5d0271"
+  integrity sha512-iH1di/Xd5OhnqvuSHG0NpKzmVbkFHTuRp0brysg7KZ5HPRIN81ggRe4p+jZz3CGvj3uvNUNBA1kUe0BmMGdfsQ==
   dependencies:
     is-utf8 "^0.2.1"
   optionalDependencies:
@@ -1636,20 +1636,20 @@
     react-dom "^17.0.0"
     react-router-dom "^6.0.2"
 
-"@owlmeans/regov-ext-groups@^0.1.5":
-  version "0.1.5"
-  resolved "https://registry.yarnpkg.com/@owlmeans/regov-ext-groups/-/regov-ext-groups-0.1.5.tgz#d48228abc63d94ad480ca7bd39b7e58e10315af0"
-  integrity sha512-FhqXaA0wTcpJAX4unJAEPKErmf3GHoFgvdCqPkSSxdXdbYQ+ZVg1WDalO2CfdTD6jhp/sEWTdh2ANmGxYEHy2Q==
-
-"@owlmeans/regov-ext-identity@^0.1.6":
+"@owlmeans/regov-ext-groups@^0.1.6":
   version "0.1.6"
-  resolved "https://registry.yarnpkg.com/@owlmeans/regov-ext-identity/-/regov-ext-identity-0.1.6.tgz#606ca3e5b2cb8d3086779dcc2c4abbc99aee9f3b"
-  integrity sha512-Ilaeye0Tb0Fma81ALnDrRmYiUzjCH1LdP80+7IuxfFWFR0Du5X/rfWva8ScFTjbBU7SEVABGLe7a7ix3JT4kdQ==
+  resolved "https://registry.yarnpkg.com/@owlmeans/regov-ext-groups/-/regov-ext-groups-0.1.6.tgz#954081debd42680a3187e24a2aa485db5ec5e996"
+  integrity sha512-CC8mFPYlm0AE95ShlDcAOU4MMrjL4elmswk6sN0K58dRW2ZU/WT7bN0vcbWxatUka8x15XAa8SyJtuNzN0rbtw==
 
-"@owlmeans/regov-lib-react@^0.1.7":
+"@owlmeans/regov-ext-identity@^0.1.7":
   version "0.1.7"
-  resolved "https://registry.yarnpkg.com/@owlmeans/regov-lib-react/-/regov-lib-react-0.1.7.tgz#752b00587c735a8244f53defbbbe469f27cac4e4"
-  integrity sha512-zOcPfXsXo3lCRfucDYTT+wCd68pAwjkQvFiIfJEnC5LgmgsltSAkfa/atS8/MHLLcKaZl5fhatyqLJrpcJksXw==
+  resolved "https://registry.yarnpkg.com/@owlmeans/regov-ext-identity/-/regov-ext-identity-0.1.7.tgz#7805c7058216b680c8da20985ac7000dc50336d0"
+  integrity sha512-MXHcrjSNK+SukdZlhUnbi0ff0PAwi8L/63Uh6yd/aK7wEygHKDrk5HSBsFRGOXBbjKGcxOCOOsWWTYed2/0pww==
+
+"@owlmeans/regov-lib-react@^0.1.8":
+  version "0.1.8"
+  resolved "https://registry.yarnpkg.com/@owlmeans/regov-lib-react/-/regov-lib-react-0.1.8.tgz#bc254a177970729e3b0cfe5f584bd30752400c31"
+  integrity sha512-745r12/WiWUuWXEAgb48ub4+1cEAt/fDomcin+f4t10XvbqkuwzSxB5yZSge9/5GUDYa1MmvNa6aAX7jqjobTA==
   dependencies:
     "@emotion/react" "^11.6.0"
     "@emotion/styled" "^11.6.0"
@@ -1665,10 +1665,10 @@
     react-dom "^17.0.0"
     react-router-dom "^6.0.2"
 
-"@owlmeans/regov-ssi-core@^0.5.0":
-  version "0.5.0"
-  resolved "https://registry.yarnpkg.com/@owlmeans/regov-ssi-core/-/regov-ssi-core-0.5.0.tgz#95d9cea55527d8cbadb405f9ebdce28b11f7ae60"
-  integrity sha512-Mpt5UtoFKMqWeX84i1h49Y5RibwbBgCG9BhfHYO/tkDIoh82NDqIgN6WAF77qNC2shiNXbwppD2g6RS4MGRyXQ==
+"@owlmeans/regov-ssi-core@^0.5.3":
+  version "0.5.3"
+  resolved "https://registry.yarnpkg.com/@owlmeans/regov-ssi-core/-/regov-ssi-core-0.5.3.tgz#79c821ff36c50538e6de45e9a32faabd51195705"
+  integrity sha512-zee2gNxjfXgfy+peYNoDE6CzgDq9L3ZDbA0jAcgtpVFnkd2EcUpTiYrTQyTozWTIpve4Ah+GBOaI8WtutmLBhw==
   dependencies:
     "@affinidi/tiny-lds-ecdsa-secp256k1-2019" "^1.1.0"
     "@affinidi/vc-common" "^1.4.1"
