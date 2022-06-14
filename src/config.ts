@@ -14,6 +14,7 @@
  *  limitations under the License.
  */
 
+import { CommExtConfig, DEFAULT_SERVER_ALIAS } from "@owlmeans/regov-ext-comm"
 import { Config } from '@owlmeans/regov-lib-react';
 
 export const config: Config = {
@@ -28,4 +29,21 @@ export const config: Config = {
     terms: process.env.REACT_APP_TERMS_URL,
     guides: process.env.REACT_APP_GUIDES_URL
   }
+}
+
+export const commConfig: CommExtConfig = {
+  wsConfig: {
+    [DEFAULT_SERVER_ALIAS]: {
+      server: process.env.REACT_APP_DIDCOMM_SERVER || '',
+      timeout: 30
+    }
+  }
+}
+
+export const idConfig = {
+  name: 'Meta-Belarus Identity',
+  code: 'metabel-identity',
+  organization: 'Meta-Belarus',
+  home: 'https://meta-belarus.org/',
+  schemaBaseUrl: 'https://meta-id.meta-belarus.org/schemas'
 }

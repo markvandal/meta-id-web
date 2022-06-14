@@ -19,6 +19,7 @@ import { buildUIExtensionRegistry } from '@owlmeans/regov-lib-react'
 import { buildIdentityExtensionUI } from '@owlmeans/regov-ext-identity'
 import { signatureWebExtension } from '@owlmeans/regov-ext-doc-signature'
 import { groupsUIExtension } from '@owlmeans/regov-ext-groups'
+import { authUIExtension } from '@owlmeans/regov-ext-auth'
 
 import { WalletApp } from '@owlmeans/regov-lib-react'
 
@@ -26,20 +27,14 @@ import { Box } from '@mui/material'
 
 import Logo from './assets/logo.png'
 
-import { config } from './config'
+import { commConfig, config, idConfig } from './config'
+import { buildCommUIExtension } from '@owlmeans/regov-ext-comm'
 
-
-const EXAMPLE_IDENTITY_TYPE = 'ExampleIdentity'
 
 const registry = buildUIExtensionRegistry()
-
-registry.registerSync(buildIdentityExtensionUI(EXAMPLE_IDENTITY_TYPE, { appName: config.name || '' }, {
-  name: '',
-  code: 'regov-identity',
-  organization: 'Meta-Belarus',
-  home: 'https://meta-id.meta-belarus.org/',
-  schemaBaseUrl: 'https://id.meta-belarus.org/schemas/'
-}))
+registry.registerSync(buildCommUIExtension(commConfig))
+registry.registerSync(authUIExtension)
+registry.registerSync(buildIdentityExtensionUI('MetaBelarusIdentity', { appName: config.name || '' }, idConfig))
 registry.registerSync(signatureWebExtension)
 registry.registerSync(groupsUIExtension)
 
