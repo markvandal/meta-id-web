@@ -17,6 +17,9 @@
 import { CommExtConfig, DEFAULT_SERVER_ALIAS } from "@owlmeans/regov-ext-comm"
 import { Config } from '@owlmeans/regov-lib-react';
 
+import './warmup'
+
+
 export const config: Config = {
   DID_PREFIX: process.env.REACT_APP_DID_PREFIX || 'regov',
   DID_SCHEMA_PATH: process.env.REACT_APP_DID_SCHEMA_PATH || 'did-schema.json',

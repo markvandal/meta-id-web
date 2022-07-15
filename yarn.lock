@@ -1653,32 +1653,32 @@
     did-resolver "^3.1.5"
     websocket "^1.0.34"
 
-"@owlmeans/regov-ext-auth@^0.1.11":
+"@owlmeans/regov-ext-auth@^0.1.12":
+  version "0.1.12"
+  resolved "https://registry.yarnpkg.com/@owlmeans/regov-ext-auth/-/regov-ext-auth-0.1.12.tgz#cd4690953f9d83c54a93b8a632d795fdb7718b4c"
+  integrity sha512-UVT5Q3GvQKCracJtiJxzXiqfCI3hfTp4xfn0cY/vblGcnZQIip97mtO3sYwejefXoeNYXi90iOLCb2w0lh7hEQ==
+
+"@owlmeans/regov-ext-comm@^0.1.11":
   version "0.1.11"
-  resolved "https://registry.yarnpkg.com/@owlmeans/regov-ext-auth/-/regov-ext-auth-0.1.11.tgz#563fc4798c4a3e643cf87ff264e71d178547b410"
-  integrity sha512-ozQ0oXlst5IbBpl3LRA7TXJJQZY1ZQh/abHQsoMjx77hjnrXwkdNnwTm32Oi3SXqYO6vvmLI/4poEBpx4hjAxg==
+  resolved "https://registry.yarnpkg.com/@owlmeans/regov-ext-comm/-/regov-ext-comm-0.1.11.tgz#ab6421689779e4ef06273d25d75d32bdfe72ec5b"
+  integrity sha512-Hy3i+8jdHoAC1+V6GS4tkzaeYEMfLswMXrGQGjachkr1/Zcsvl4IggJiu8zehMSEwsdyeQyCS0YpN2cc9WUG7g==
 
-"@owlmeans/regov-ext-comm@^0.1.10":
-  version "0.1.10"
-  resolved "https://registry.yarnpkg.com/@owlmeans/regov-ext-comm/-/regov-ext-comm-0.1.10.tgz#a43e279881a027f300abdd06365c9be4b0a8bd14"
-  integrity sha512-5QSeECp/E67mpv1KfSsobOxgWWJDOUdenoZaT/FuBp3X9+gO4GxX+4XGTJtaRoz0HJe1XKGKkHlle9KBTyFbpA==
-
-"@owlmeans/regov-ext-doc-signature@^0.1.13":
-  version "0.1.13"
-  resolved "https://registry.yarnpkg.com/@owlmeans/regov-ext-doc-signature/-/regov-ext-doc-signature-0.1.13.tgz#7a3077a77c627a8d6937dd182d33b3f909901c89"
-  integrity sha512-G8j4yv83RnZFjK+acQnUAE1C7ulvzddTPxa7dZl+XgAW6KXUJ4MNUiyX82qBAX49h408itkGFM/hmDSb8EMkhA==
+"@owlmeans/regov-ext-doc-signature@^0.1.14":
+  version "0.1.14"
+  resolved "https://registry.yarnpkg.com/@owlmeans/regov-ext-doc-signature/-/regov-ext-doc-signature-0.1.14.tgz#5564d866b85a8f8ca92518a491bffee42991d1c6"
+  integrity sha512-xxLTldXqv/eguQX8E9jNeQ4ai9IwCf0pcyaWq67UyCroBpfgu7u4f8a9Zcae5RUFkw5/BcFJ1onkLnVWU/eROw==
   dependencies:
     is-utf8 "^0.2.1"
 
-"@owlmeans/regov-ext-groups@^0.2.4":
-  version "0.2.4"
-  resolved "https://registry.yarnpkg.com/@owlmeans/regov-ext-groups/-/regov-ext-groups-0.2.4.tgz#bd89f96329a1f1f7444af18ce40f640202a767cb"
-  integrity sha512-VrsMPl5TKOl48MtJAldGtM3xNh318tKiEsADQQleP74AbVOuDyu3F2Fdki61VBKB0Y6nbAPf3TfhkZml+evGiw==
+"@owlmeans/regov-ext-groups@^0.2.5":
+  version "0.2.5"
+  resolved "https://registry.yarnpkg.com/@owlmeans/regov-ext-groups/-/regov-ext-groups-0.2.5.tgz#e15583257c8c76d90137301da515d9c21586a333"
+  integrity sha512-BfWaJG3pl5nEHpOsIHzcUBmze2eEYImRERojNwUTwl+03mRZiPlAzYgBTsgDNd5XjxsQ9Ph/axMjba2zHcUCeg==
 
-"@owlmeans/regov-ext-identity@^0.2.3":
-  version "0.2.3"
-  resolved "https://registry.yarnpkg.com/@owlmeans/regov-ext-identity/-/regov-ext-identity-0.2.3.tgz#2bb0aaa56ce6825fc2a56436157da753a2435c99"
-  integrity sha512-PGNXmok2pI1vlyPT3pqMBVY/Gw2V2yOQeUI2e9AMhFNR3t6znZ2u8ybrHFM4iwa5CTX4PvGTqKWLP357NZ+ObQ==
+"@owlmeans/regov-ext-identity@^0.2.4":
+  version "0.2.4"
+  resolved "https://registry.yarnpkg.com/@owlmeans/regov-ext-identity/-/regov-ext-identity-0.2.4.tgz#d4d84a6924d3a72334ff5475e37f6c42944a74a0"
+  integrity sha512-oqr9fLZcAxniAApmTzX5fdSrXyzGaE3En6QW6FKFErQph1ddYmwervLe2lWu6CvbzhW0ZeXh1+YweMUFQgaWdQ==
 
 "@owlmeans/regov-lib-react@^0.2.6":
   version "0.2.6"
@@ -1688,10 +1688,10 @@
     localforage "^1.10.0"
     moment "^2.29.1"
 
-"@owlmeans/regov-ssi-core@^0.6.7":
-  version "0.6.7"
-  resolved "https://registry.yarnpkg.com/@owlmeans/regov-ssi-core/-/regov-ssi-core-0.6.7.tgz#403986a19057fdb9e0f0edec4b1dff9e172de7b9"
-  integrity sha512-sk6HhfVTvPEH9G+Mn3CHvC4FRf/xOn//GJgtXq8aw7Cjxm1UG4kBAZxbHqT5DNS+Gl4OxfvFP8WDIDz+ucq5aw==
+"@owlmeans/regov-ssi-core@^0.6.8":
+  version "0.6.8"
+  resolved "https://registry.yarnpkg.com/@owlmeans/regov-ssi-core/-/regov-ssi-core-0.6.8.tgz#42423ae3d103ba845452859808f00c431f8fba51"
+  integrity sha512-oPzUKv5YQAZtkKBz1A3kVbM71MlTUJfM5S1BaQuzdXzACiMxz8UfOxAKGimxLA+WlfAZNbEuBUGkAy1foHzqGQ==
   dependencies:
     "@owlmeans/tiny-lds-ecdsa-secp256k1-2019" "^1.0.3"
     ajv "^8.8.2"
