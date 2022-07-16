@@ -12,7 +12,13 @@ import { documentWarmer } from '@owlmeans/regov-ssi-core'
 
 
 documentWarmer('https://owlmeans.com/schemas/did-schema.json#', JSON.stringify(didSchema))
-documentWarmer('https://meta-id.meta-belarus.org/schemas/did-schema.json#', JSON.stringify(didSchema))
+documentWarmer('https://meta-id.meta-belarus.org/schemas/did-schema.json#', 
+  JSON.stringify(didSchema)
+    .replace(
+      'https://owlmeans.com/schemas/did-schema.json#',
+      'https://meta-id.meta-belarus.org/schemas/did-schema.json#'
+    )
+)
 documentWarmer('https://owlmeans.com/schemas/did-schema.json', JSON.stringify(didSchema))
 documentWarmer('https://meta-id.meta-belarus.org/schemas/did-schema.json', JSON.stringify(didSchema))
 documentWarmer('https://owlmeans.com/schema/auth-request', JSON.stringify(authRequest))
