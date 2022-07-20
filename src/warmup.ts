@@ -11,16 +11,34 @@ import identity from './schemas/identity.json'
 import { documentWarmer } from '@owlmeans/regov-ssi-core'
 
 
-documentWarmer('https://owlmeans.com/schemas/did-schema.json#', JSON.stringify(didSchema))
-documentWarmer('https://meta-id.meta-belarus.org/schemas/did-schema.json#', 
+documentWarmer('https://owlmeans.com/schemas/did-schema.json#',
   JSON.stringify(didSchema)
     .replace(
-      'https://owlmeans.com/schemas/did-schema.json#',
-      'https://meta-id.meta-belarus.org/schemas/did-schema.json#'
+      'https://id.meta-belarus.org/schemas/did-schema.json',
+      'https://owlmeans.com/schemas/did-schema.json'
     )
 )
-documentWarmer('https://owlmeans.com/schemas/did-schema.json', JSON.stringify(didSchema))
-documentWarmer('https://meta-id.meta-belarus.org/schemas/did-schema.json', JSON.stringify(didSchema))
+documentWarmer('https://meta-id.meta-belarus.org/schemas/did-schema.json#',
+  JSON.stringify(didSchema)
+    .replace(
+      'https://id.meta-belarus.org/schemas/did-schema.json',
+      'https://meta-id.meta-belarus.org/schemas/did-schema.json'
+    )
+)
+documentWarmer('https://owlmeans.com/schemas/did-schema.json',
+  JSON.stringify(didSchema)
+    .replace(
+      'https://id.meta-belarus.org/schemas/did-schema.json',
+      'https://owlmeans.com/schemas/did-schema.json'
+    )
+)
+documentWarmer('https://meta-id.meta-belarus.org/schemas/did-schema.json',
+  JSON.stringify(didSchema)
+    .replace(
+      'https://id.meta-belarus.org/schemas/did-schema.json',
+      'https://meta-id.meta-belarus.org/schemas/did-schema.json'
+    )
+)
 documentWarmer('https://owlmeans.com/schema/auth-request', JSON.stringify(authRequest))
 documentWarmer('https://meta-id.meta-belarus.org/schema/auth-request', JSON.stringify(authRequest))
 documentWarmer('https://owlmeans.com/schema/auth', JSON.stringify(auth))
