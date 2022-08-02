@@ -1653,10 +1653,10 @@
     did-resolver "^3.1.5"
     websocket "^1.0.34"
 
-"@owlmeans/regov-ext-auth@^0.1.12":
-  version "0.1.12"
-  resolved "https://registry.yarnpkg.com/@owlmeans/regov-ext-auth/-/regov-ext-auth-0.1.12.tgz#cd4690953f9d83c54a93b8a632d795fdb7718b4c"
-  integrity sha512-UVT5Q3GvQKCracJtiJxzXiqfCI3hfTp4xfn0cY/vblGcnZQIip97mtO3sYwejefXoeNYXi90iOLCb2w0lh7hEQ==
+"@owlmeans/regov-ext-auth@^0.1.14":
+  version "0.1.14"
+  resolved "https://registry.yarnpkg.com/@owlmeans/regov-ext-auth/-/regov-ext-auth-0.1.14.tgz#66744e1a5bab093540db3daa337d98ce7cede475"
+  integrity sha512-LmeryUPWzJ7uy9Im8QDWjnssSzQ+Utom8iv/nuvaJ96fnsN2HbAdt5/nwcqRDJLgCQQoTjT02SVldtDxgyJH4Q==
 
 "@owlmeans/regov-ext-comm@^0.1.11":
   version "0.1.11"
@@ -1670,20 +1670,20 @@
   dependencies:
     is-utf8 "^0.2.1"
 
-"@owlmeans/regov-ext-groups@^0.2.5":
-  version "0.2.5"
-  resolved "https://registry.yarnpkg.com/@owlmeans/regov-ext-groups/-/regov-ext-groups-0.2.5.tgz#e15583257c8c76d90137301da515d9c21586a333"
-  integrity sha512-BfWaJG3pl5nEHpOsIHzcUBmze2eEYImRERojNwUTwl+03mRZiPlAzYgBTsgDNd5XjxsQ9Ph/axMjba2zHcUCeg==
+"@owlmeans/regov-ext-groups@^0.2.8":
+  version "0.2.8"
+  resolved "https://registry.yarnpkg.com/@owlmeans/regov-ext-groups/-/regov-ext-groups-0.2.8.tgz#f6188700cda1f544df184aa5529b7c935f4381c1"
+  integrity sha512-/3cXpJmi6obHoNd4Q+j6byEolX0sDoNlzTjT0L+oiQHTQeabNp1qHK9No03eyrGYsFz7mEiECuaGElcTl7Oj1A==
 
 "@owlmeans/regov-ext-identity@^0.2.4":
   version "0.2.4"
   resolved "https://registry.yarnpkg.com/@owlmeans/regov-ext-identity/-/regov-ext-identity-0.2.4.tgz#d4d84a6924d3a72334ff5475e37f6c42944a74a0"
   integrity sha512-oqr9fLZcAxniAApmTzX5fdSrXyzGaE3En6QW6FKFErQph1ddYmwervLe2lWu6CvbzhW0ZeXh1+YweMUFQgaWdQ==
 
-"@owlmeans/regov-lib-react@^0.2.6":
-  version "0.2.6"
-  resolved "https://registry.yarnpkg.com/@owlmeans/regov-lib-react/-/regov-lib-react-0.2.6.tgz#e52191007d9867df7d96e65fb2a85628c32987cd"
-  integrity sha512-NbzYKLmM2IGs1zQijEbKVe6GGmC9iDQmHzC11xLK9QQ0CdmDsRkxpxIbhl63EuzDLiwX316HZm53Arn0dG3dzQ==
+"@owlmeans/regov-lib-react@^0.2.8":
+  version "0.2.8"
+  resolved "https://registry.yarnpkg.com/@owlmeans/regov-lib-react/-/regov-lib-react-0.2.8.tgz#a9e14cf5fe238cf4453a8ce9e577cb04ba77a08e"
+  integrity sha512-rtWdivKTjJab8PkK++9ROBAfeaIpbSPLAvlB3W7reS/j46QbNZOf0WUjmuitMVOQen/YXmRFKKU19uFoRthbFA==
   dependencies:
     localforage "^1.10.0"
     moment "^2.29.1"
