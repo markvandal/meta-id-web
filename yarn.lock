@@ -1670,10 +1670,10 @@
   dependencies:
     is-utf8 "^0.2.1"
 
-"@owlmeans/regov-ext-groups@^0.2.8":
-  version "0.2.8"
-  resolved "https://registry.yarnpkg.com/@owlmeans/regov-ext-groups/-/regov-ext-groups-0.2.8.tgz#f6188700cda1f544df184aa5529b7c935f4381c1"
-  integrity sha512-/3cXpJmi6obHoNd4Q+j6byEolX0sDoNlzTjT0L+oiQHTQeabNp1qHK9No03eyrGYsFz7mEiECuaGElcTl7Oj1A==
+"@owlmeans/regov-ext-groups@^0.2.9":
+  version "0.2.9"
+  resolved "https://registry.yarnpkg.com/@owlmeans/regov-ext-groups/-/regov-ext-groups-0.2.9.tgz#7c0a53c73fb44cf46a703af9d73f25d83eed125e"
+  integrity sha512-IV1wGT9pj8ZU5xSeZy3nkhEvX9HarU4GLZmHMnS95hlp6DamEaxpiQlnes2XkmM7QjiudtbabxOa9IF1y/2/4A==
 
 "@owlmeans/regov-ext-identity@^0.2.4":
   version "0.2.4"
